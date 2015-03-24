@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- &lt;!&ndash; Base application theme. &ndash;&gt;
+        <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+         &lt;!&ndash; Customize your theme here. &ndash;&gt;
+     </style>-->
+    <style name="MyTheme" parent="@style/Theme.AppCompat.Light">
+        <item name="windowActionBarOverlay">true</item>
+        <item name="android:windowActionBarOverlay">true</item>
+    </style>
+
+    <style name="Default" parent="@style/Theme.AppCompat.Light">
+        <item name="windowActionBarOverlay">true</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="actionBarStyle">@style/myActionBar</item>
+        <item name="android:actionBarStyle">@style/myActionBar</item>
+    </style>
+
+    <!-- 自定义导航栏样式 -->
+    <style name="myActionBar" parent="@style/Widget.AppCompat.Light.ActionBar">
+        <item name="android:actionBarSize">30dip</item>
+        <item name="background">@android:color/transparent</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="backgroundStacked">@android:color/transparent</item>
+        <item name="android:backgroundStacked">@android:color/transparent</item>
+        <item name="backgroundSplit">@android:color/transparent</item>
+        <item name="android:backgroundSplit">@android:color/transparent</item>
+    </style>
+
+</resources>

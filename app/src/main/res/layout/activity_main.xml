@@ -1,0 +1,11 @@
+<bigbigboy.example.com.voicerecorder.support.widget.XRecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/recyclerview"
+    android:cacheColorHint="@android:color/transparent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="?actionBarSize"
+    android:paddingLeft="2dp"
+    android:paddingRight="2dp"
+    android:dividerHeight="6dp"
+    android:divider="@android:color/transparent"
+    android:background="#ebebeb" />

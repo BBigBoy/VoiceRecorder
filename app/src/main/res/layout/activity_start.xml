@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:match="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/guidepic10"
+    tools:context=".SplashActivity">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="你 的 声 音 最 动 听"
+        android:layout_above="@+id/mMatchTextView"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FF0077aa"
+        android:textSize="26sp" />
+
+    <com.roger.match.matchview.MatchTextView
+        android:id="@+id/mMatchTextView"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:textStyle="italic"
+        match:text="Touch Heart"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        match:textColor="#FF0077aa"
+        match:textSize="23sp" />
+
+</RelativeLayout>
